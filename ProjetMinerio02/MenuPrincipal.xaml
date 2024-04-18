@@ -1,0 +1,19 @@
+﻿<Page x:Class="ProjetMinerio02.MenuPrincipal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-ProjetMinerio02:testWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Name="MenuPrincipalFenetre"
+      FontSize="25"
+      FontFamily="Impact">
+    
+    <StackPanel Name="test" HorizontalAlignment="Center" VerticalAlignment="Center" >
+        <TextBox Text="MINERIO" Padding="50" Background="Transparent" BorderBrush="Transparent" FontSize="50" Foreground="AntiqueWhite" IsHitTestVisible = "False"/>
+        <Button Name="BoutonJouer"   Click="MenuClick" Padding="5" Content="Jouer"/>
+        <Button Name="BoutonOption"  Click="MenuClick" Padding="5" Content="Option"/>
+        <Button Name="BoutonQuitter" Click="MenuClick" Padding="5" Content="Quitter"/>
+    </StackPanel>
+</Page>
